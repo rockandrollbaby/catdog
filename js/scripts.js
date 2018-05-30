@@ -2,12 +2,12 @@ $(document).ready(function() {
   $("button#meow").click(function() {
     $("ul.cat").prepend("<li>Meow</li>");
     $("ul.dog").prepend("<li>Woof!</li>");
-    $("img").show(".catpic");
+    $(".catpic").toggle();
   });
 
   $("button#woof").click(function() {
     $("ul.cat").prepend("<li>Meow</li>");
     $("ul.dog").prepend("<li>Woof!</li>");
-    $("img").show(".dogpic")
+    $(".dogpic").toggle();
   });
 });

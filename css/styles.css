@@ -1,3 +1,12 @@
 img {
+  /*display: none;*/
+  max-width: 200px;
+}
+
+.catpic {
+  display: none;
+}
+
+.dogpic {
   display: none;
 }
