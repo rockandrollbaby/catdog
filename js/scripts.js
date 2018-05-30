@@ -1,15 +1,13 @@
 $(document).ready(function() {
-  $("button#hello").click(function() {
-    $("ul").prepend("<li>Hello!</li>");
+  $("button#meow").click(function() {
+    $("ul.cat").prepend("<li>Meow</li>");
+    $("ul.dog").prepend("<li>Woof!</li>");
+    $("img").show(".catpic");
   });
 
-  $("button#goodbye").click(function() {
-    $("ul").prepend("<li>Goodbye!</li>");
-    $('li').css('background-color', 'purple');
-    $('li').css('color', 'white');
-  });
-
-  $("button#stop").click(function() {
-    $("ul").prepend("<li>Stop copying me!</li>");
+  $("button#woof").click(function() {
+    $("ul.cat").prepend("<li>Meow</li>");
+    $("ul.dog").prepend("<li>Woof!</li>");
+    $("img").show(".dogpic")
   });
 });
